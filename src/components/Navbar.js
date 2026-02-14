@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { CONTACT } from '../constants';
+// Removed unused CONTACT import
 import logo from '../logo abacus.png';
-
 
 const navItems = [
   { path: '/', label: 'Home' },
@@ -19,9 +18,8 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light sticky-top border-bottom border-gold">
       <div className="container">
         <Link className="navbar-brand" to="/">
-        <img src={logo} alt="Samvit Academy" height="80" />
+          <img src={logo} alt="Samvit Academy" height="80" />
         </Link>
- 
 
         <button
           className="navbar-toggler"
